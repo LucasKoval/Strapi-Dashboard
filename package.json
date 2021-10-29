@@ -1,0 +1,38 @@
+{
+  "name": "strapi-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi dashboard application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-utils": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-connector-bookshelf": "3.6.8",
+    "knex": "0.21.18",
+    "sqlite3": "5.0.0"
+  },
+  "author": {
+    "name": "Lucas Koval"
+  },
+  "strapi": {
+    "uuid": "92a5d142-4f37-4f35-9ba4-391760be37d2"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
